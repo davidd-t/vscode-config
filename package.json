@@ -1,0 +1,12 @@
+{
+  "name": "ui-style-autopatch",
+  "displayName": "Custom UI Style Auto-Patch",
+  "description": "Re-applies Custom UI Style automatically after a VS Code update.",
+  "version": "1.0.0",
+  "publisher": "local",
+  "license": "MIT",
+  "engines": { "vscode": "^1.90.0" },
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "extensionDependencies": ["subframe7536.custom-ui-style"]
+}
